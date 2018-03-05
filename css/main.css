@@ -1,0 +1,202 @@
+@charset "UTF-8";
+body  {
+	font-family: 'Roboto', sans-serif;
+}
+.navbar-default  {
+	background-color: rgba(112,112,112,0.83);
+}
+.jardins-paloma {
+	background-color: #F8BB61;
+	padding-top: 67px;
+	padding-bottom: 22px;
+	background-image: url(../Images/background-building.jpg);
+	background-size: cover;
+}
+.text-wb {
+	color: rgba(246,168,53,0.78);
+	font-size: 32px;
+}
+.roboto-serif {
+	font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #CEA162;
+	font-size: 45px;
+	/* [disabled]background-color: #F8BB61; */
+	padding-left: 30px;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: 300;
+	color: #CEA162;
+	font-size: 45px;
+	padding-left: 30px;
+}
+.roboto-serif2 {
+	color: #F8BB61;
+	font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35
+}
+h2 {
+	color: #F8BB61;
+	font-family: 'Roboto Slab', serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35
+}
+.text-fstpara {
+	font-size: 10px;
+	padding-left: 30px;
+}
+a:link {
+	color: #F8BB61;
+}
+a:hover {
+	color: #F9F9F9;
+	text-transform: none;
+}
+.text-icons {
+	color: #F9BC62;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+.text-wb {
+	color: rgba(249,188,98,0.76);
+	font-family: 'Roboto Slab', serif;
+	font-size: 35px;
+}
+p {
+	color: #F9F9F9;
+	font-size: 15px;
+}
+.jardins-palome-huwer {
+	background-color: #EA6D61;
+	padding-top: 25px;
+	padding-bottom: 35px;
+	padding-left: 30px;
+}
+.jardins-paloma-services {
+	background-color: #502652;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: #F7BB62;
+	font-weight: bolder;
+}
+.jardins-paloma-contact {
+	background-color: #F8BB62;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-image: url(../Images/bookstore.jpg);
+	background-size: cover;
+}
+.jardins-paloma-gallery {
+	background-color: rgba(248,187,97,1.00);
+}
+.jardins-paloma-footer {
+	background-color: #4B4B4B;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.gallery-text {
+	background-color: rgba(218,122,26,1.00);
+	color: rgba(60,42,30,1.00);
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 75px;
+	bottom: 10px;
+}
+.hidden-xs {
+}
+.text-footer {
+	color: #F9F9F9;
+	font-size: 15px;
+	text-align: right;
+}
+.cpl-md-8 {
+}
+/*Mobile View*/
+@media (max-width: 767px){
+.roboto-serif {
+	font-size: 18px;
+}
+.roboto-serif2 {
+	font-size: 18px;
+}
+.text-fstpara {
+	font-size: 10px;
+}
+p {
+	font-size: 10px;
+}
+.jardins-palome-huwer {
+	padding-top: 25px;
+	padding-bottom: 47px;
+}
+.jardins-paloma {
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+.jardins-paloma-services {
+	padding-top: 0px;
+}
+.text-footer {
+	font-size: 10px;
+}
+}
+/*Tablet view*/
+@media (min-width: 768px) and (max-width: 991px){
+.roboto-serif {
+	font-size: 30px;
+}
+.roboto-serif2 {
+	font-size: 30px;
+}
+.text-fstpara {
+	font-size: 13px;
+}
+p {
+	font-size: 13px;
+}
+.text-footer {
+	font-size: 13px;
+}
+}
+/*Desktop View*/
+@media (min-width: 992px) and (max-width: 1199px){
+.roboto-serif {
+	font-size: 40px;
+}
+.roboto-serif2 {
+	font-size: 40px;
+}
+.text-fstpara {
+	font-size: 15px;
+}
+.text-footer {
+	font-size: 15px;
+}
+p {
+	font-size: 15px;
+}
+}
+/*XL Desktop View*/
+@media (min-width: 1200px){
+.roboto-serif {
+	font-size: 50px;
+}
+.roboto-serif2 {
+	font-size: 50px;
+}
+.text-fstpara {
+	font-size: 18px;
+}
+.text-footer {
+	font-size: 18px;
+}
+p {
+	font-size: 18px;
+}
+}
